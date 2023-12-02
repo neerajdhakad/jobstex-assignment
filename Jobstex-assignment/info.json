@@ -1,0 +1,825 @@
+[
+    {
+        "id": "dfd6f2f1-640d-461d-96dd-c4a64ba4d0ae",
+        "menuId": "531456e4-b9b2-40a8-8b91-5364acf867bb",
+        "actionType": "View",
+        "userRightsMenuData": {
+            "id": "531456e4-b9b2-40a8-8b91-5364acf867bb",
+            "menuName": "Dashboard",
+            "menuUrl": "dashboard",
+            "displayOrder": 1,
+            "menuIcon": "las la-home",
+            "actionType": "View",
+            "menuType": "1",
+            "info": "Dashboard",
+            "hideMenu": 1,
+            "sidebarUrl": "dashboard",
+            "parentRoute": ""
+        },
+        "subMenuData": []
+    },
+    {
+        "id": "3cb3d8be-4318-4d1e-b36d-4b669f601699",
+        "menuId": "0f740d3f-bda5-447a-ac4b-0e77170d2c51",
+        "actionType": "",
+        "userRightsMenuData": {
+            "id": "0f740d3f-bda5-447a-ac4b-0e77170d2c51",
+            "menuName": "Fee Management",
+            "menuUrl": "fee-management",
+            "displayOrder": 2,
+            "menuIcon": "las la-money-bill",
+            "actionType": "",
+            "menuType": "2",
+            "info": "Fee Management",
+            "hideMenu": 1,
+            "sidebarUrl": "fee-management",
+            "parentRoute": ""
+        },
+        "subMenuData": [
+            {
+                "id": "86dfbb7c-4d01-47cc-a4ef-23bc669b4d46",
+                "menuId": "0f740d3f-bda5-447a-ac4b-0e77170d2c51",
+                "subMenuId": "71de33b8-412f-4ea0-8710-05dd4d4d601c",
+                "subActionType": "View,List,Edit,Active,Add",
+                "userRightsSubMenuData": {
+                    "id": "71de33b8-412f-4ea0-8710-05dd4d4d601c",
+                    "subMenuUrl": "fee-category",
+                    "subMenuName": "Fee Category",
+                    "displayOrder": 1,
+                    "subMenuIcon": "las la-arrow-alt-circle-down",
+                    "actionType": "View,List,Edit,Active,Add",
+                    "subMenuType": "1",
+                    "info": "Fee Category",
+                    "hideMenu": 1,
+                    "sidebarUrl": "fee-category",
+                    "parentRoute": ""
+                }
+            },
+            {
+                "id": "a4233025-381f-40ec-9562-b09f85847431",
+                "menuId": "0f740d3f-bda5-447a-ac4b-0e77170d2c51",
+                "subMenuId": "6a4c1c21-bfb5-4231-ac80-d7351a2c16c9",
+                "subActionType": "View,List,Add,Edit",
+                "userRightsSubMenuData": {
+                    "id": "6a4c1c21-bfb5-4231-ac80-d7351a2c16c9",
+                    "subMenuUrl": "fee-structure",
+                    "subMenuName": "Fee Structure",
+                    "displayOrder": 2,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View,List,Add,Edit",
+                    "subMenuType": "1",
+                    "info": "Fee Structure",
+                    "hideMenu": 1,
+                    "sidebarUrl": "fee-structure",
+                    "parentRoute": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "b109c27b-da22-45fb-b966-7fe22cf0131b",
+        "menuId": "6dd4c566-7c73-46a7-bd35-bb3f19a4954e",
+        "actionType": "",
+        "userRightsMenuData": {
+            "id": "6dd4c566-7c73-46a7-bd35-bb3f19a4954e",
+            "menuName": "Add On Management",
+            "menuUrl": "add-on-management",
+            "displayOrder": 3,
+            "menuIcon": "las la-money-bill-alt",
+            "actionType": "",
+            "menuType": "2",
+            "info": "Add On Management",
+            "hideMenu": 1,
+            "sidebarUrl": "add-on-management",
+            "parentRoute": ""
+        },
+        "subMenuData": [
+            {
+                "id": "b9df3f07-73e8-4f76-9756-d43ec5ad2761",
+                "menuId": "6dd4c566-7c73-46a7-bd35-bb3f19a4954e",
+                "subMenuId": "14da316a-0b4e-454a-bbc2-2a8ac5eee298",
+                "subActionType": "View,List,Active,Add,Edit",
+                "userRightsSubMenuData": {
+                    "id": "14da316a-0b4e-454a-bbc2-2a8ac5eee298",
+                    "subMenuUrl": "add-on-category",
+                    "subMenuName": "Add On Category",
+                    "displayOrder": 1,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View,List,Active,Add,Edit",
+                    "subMenuType": "1",
+                    "info": "Add On Category",
+                    "hideMenu": 1,
+                    "sidebarUrl": "add-on-category",
+                    "parentRoute": ""
+                }
+            },
+            {
+                "id": "3d6a3e4a-65a0-4b31-8ab2-bad177bff05e",
+                "menuId": "6dd4c566-7c73-46a7-bd35-bb3f19a4954e",
+                "subMenuId": "0abd8207-14e8-4db2-b105-286f90e0a5f8",
+                "subActionType": "View,Addon Add,Addon Remove",
+                "userRightsSubMenuData": {
+                    "id": "0abd8207-14e8-4db2-b105-286f90e0a5f8",
+                    "subMenuUrl": "add-on-fee",
+                    "subMenuName": "Add On Fee",
+                    "displayOrder": 2,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View,Addon Add,Addon Remove",
+                    "subMenuType": "1",
+                    "info": "Add On Fee",
+                    "hideMenu": 1,
+                    "sidebarUrl": "add-on-fee",
+                    "parentRoute": ""
+                }
+            },
+            {
+                "id": "9d3b595b-09fc-4d19-88a3-f3887788d7ab",
+                "menuId": "6dd4c566-7c73-46a7-bd35-bb3f19a4954e",
+                "subMenuId": "c3dc935e-ed70-4d2c-b31b-93b65e7ea88e",
+                "subActionType": "View,List,Pending",
+                "userRightsSubMenuData": {
+                    "id": "c3dc935e-ed70-4d2c-b31b-93b65e7ea88e",
+                    "subMenuUrl": "addon-request-list",
+                    "subMenuName": "Add On Request List",
+                    "displayOrder": 3,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View,List,Pending",
+                    "subMenuType": "1",
+                    "info": "Add On Request List",
+                    "hideMenu": 1,
+                    "sidebarUrl": "addon-request-list",
+                    "parentRoute": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "f049fe96-dd51-46f6-9cc2-bd3f636ed098",
+        "menuId": "8a645551-bf18-4f35-805a-65950679b4f8",
+        "actionType": "",
+        "userRightsMenuData": {
+            "id": "8a645551-bf18-4f35-805a-65950679b4f8",
+            "menuName": "Student Fee Management",
+            "menuUrl": "student-fee-management",
+            "displayOrder": 4,
+            "menuIcon": "las la-book-reader",
+            "actionType": "",
+            "menuType": "2",
+            "info": "Student Fee Management",
+            "hideMenu": 1,
+            "sidebarUrl": "student-fee-management",
+            "parentRoute": ""
+        },
+        "subMenuData": [
+            {
+                "id": "3ee9db27-5e7d-47bb-91f9-cc2e0ac6c901",
+                "menuId": "8a645551-bf18-4f35-805a-65950679b4f8",
+                "subMenuId": "e9c10bfb-6411-401b-b69e-eae09f418770",
+                "subActionType": "View,List,Edit",
+                "userRightsSubMenuData": {
+                    "id": "e9c10bfb-6411-401b-b69e-eae09f418770",
+                    "subMenuUrl": "search-student",
+                    "subMenuName": "Search Student",
+                    "displayOrder": 1,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View,List,Edit",
+                    "subMenuType": "1",
+                    "info": "Search Student",
+                    "hideMenu": 1,
+                    "sidebarUrl": "search-student,view-student,view-student,view-student,view-students",
+                    "parentRoute": ""
+                }
+            },
+            {
+                "id": "cd0471a3-0498-4f21-9740-12825e602083",
+                "menuId": "8a645551-bf18-4f35-805a-65950679b4f8",
+                "subMenuId": "4d25db16-3757-4140-b35c-4230771e4598",
+                "subActionType": "View",
+                "userRightsSubMenuData": {
+                    "id": "4d25db16-3757-4140-b35c-4230771e4598",
+                    "subMenuUrl": "view-students",
+                    "subMenuName": "View Student",
+                    "displayOrder": 2,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View",
+                    "subMenuType": "1",
+                    "info": "View Student",
+                    "hideMenu": 0,
+                    "sidebarUrl": "search-student,view-student,view-student,view-student,view-students",
+                    "parentRoute": "e9c10bfb-6411-401b-b69e-eae09f418770"
+                }
+            },
+            {
+                "id": "50b94d8d-754c-432a-b1be-5771ef6858e1",
+                "menuId": "8a645551-bf18-4f35-805a-65950679b4f8",
+                "subMenuId": "d54c9109-ce5b-4376-84c2-58f3112a4995",
+                "subActionType": "View,Add",
+                "userRightsSubMenuData": {
+                    "id": "d54c9109-ce5b-4376-84c2-58f3112a4995",
+                    "subMenuUrl": "club-student",
+                    "subMenuName": "Club Student",
+                    "displayOrder": 3,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View,Add",
+                    "subMenuType": "1",
+                    "info": "Club Student",
+                    "hideMenu": 1,
+                    "sidebarUrl": "club-student,view-student,view-student,view-student",
+                    "parentRoute": ""
+                }
+            },
+            {
+                "id": "f6c01c04-4550-4735-8a17-c567c8a45e17",
+                "menuId": "8a645551-bf18-4f35-805a-65950679b4f8",
+                "subMenuId": "04852578-dea0-4ce6-b619-59406ce25b28",
+                "subActionType": "View",
+                "userRightsSubMenuData": {
+                    "id": "04852578-dea0-4ce6-b619-59406ce25b28",
+                    "subMenuUrl": "view-student",
+                    "subMenuName": "View Student1",
+                    "displayOrder": 4,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View",
+                    "subMenuType": "1",
+                    "info": "View Student1",
+                    "hideMenu": 0,
+                    "sidebarUrl": "club-student,view-student,view-student,view-student",
+                    "parentRoute": "d54c9109-ce5b-4376-84c2-58f3112a4995"
+                }
+            },
+            {
+                "id": "f66185e6-fd74-489a-a8fa-7544664a8d55",
+                "menuId": "8a645551-bf18-4f35-805a-65950679b4f8",
+                "subMenuId": "7b28b68c-8bb0-4fb9-88fa-a721dce4abd3",
+                "subActionType": "View,List,Edit",
+                "userRightsSubMenuData": {
+                    "id": "7b28b68c-8bb0-4fb9-88fa-a721dce4abd3",
+                    "subMenuUrl": "club-student-list",
+                    "subMenuName": "Club Student List",
+                    "displayOrder": 5,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View,List,Edit",
+                    "subMenuType": "1",
+                    "info": "Club Student List",
+                    "hideMenu": 1,
+                    "sidebarUrl": "club-student-list,view-club-student,view-club-student,view-club-student,edit-club-student,edit-club-student,edit-club-student,edit-club-student,edit-club-student,edit-club-student,edit-club-student,edit-club-student",
+                    "parentRoute": ""
+                }
+            },
+            {
+                "id": "a56e9394-1e2a-468b-8644-d09a56f45a73",
+                "menuId": "8a645551-bf18-4f35-805a-65950679b4f8",
+                "subMenuId": "c27357d4-a240-424f-add2-6495a160205b",
+                "subActionType": "View",
+                "userRightsSubMenuData": {
+                    "id": "c27357d4-a240-424f-add2-6495a160205b",
+                    "subMenuUrl": "view-student",
+                    "subMenuName": "View Student2",
+                    "displayOrder": 6,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View",
+                    "subMenuType": "1",
+                    "info": "View Student2",
+                    "hideMenu": 0,
+                    "sidebarUrl": "club-student-list,view-student",
+                    "parentRoute": "7b28b68c-8bb0-4fb9-88fa-a721dce4abd3"
+                }
+            },
+            {
+                "id": "d15fe888-2faa-4ec8-8acc-ad76913169d3",
+                "menuId": "8a645551-bf18-4f35-805a-65950679b4f8",
+                "subMenuId": "2cc219a3-957c-43d6-973a-7cce01887178",
+                "subActionType": "View",
+                "userRightsSubMenuData": {
+                    "id": "2cc219a3-957c-43d6-973a-7cce01887178",
+                    "subMenuUrl": "view-club-student",
+                    "subMenuName": "view-club-student",
+                    "displayOrder": 7,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View",
+                    "subMenuType": "1",
+                    "info": "view-club-student",
+                    "hideMenu": 0,
+                    "sidebarUrl": "club-student-list,view-club-student,view-club-student,view-club-student,view-student",
+                    "parentRoute": "7b28b68c-8bb0-4fb9-88fa-a721dce4abd3"
+                }
+            },
+            {
+                "id": "c2c52b45-da05-4c80-949a-b114c4ff6793",
+                "menuId": "8a645551-bf18-4f35-805a-65950679b4f8",
+                "subMenuId": "96db9073-29ad-4637-aee4-9a0ede427f14",
+                "subActionType": "View",
+                "userRightsSubMenuData": {
+                    "id": "96db9073-29ad-4637-aee4-9a0ede427f14",
+                    "subMenuUrl": "view-student",
+                    "subMenuName": "View Student4",
+                    "displayOrder": 8,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View",
+                    "subMenuType": "1",
+                    "info": "View Student4",
+                    "hideMenu": 0,
+                    "sidebarUrl": "view-club-student,view-student",
+                    "parentRoute": "2cc219a3-957c-43d6-973a-7cce01887178"
+                }
+            },
+            {
+                "id": "2bf3859b-1dad-45a2-8abf-7dc4671d79ce",
+                "menuId": "8a645551-bf18-4f35-805a-65950679b4f8",
+                "subMenuId": "264141e5-4002-4af8-a013-8f33b3d9291e",
+                "subActionType": "View,List,Add New Entry",
+                "userRightsSubMenuData": {
+                    "id": "264141e5-4002-4af8-a013-8f33b3d9291e",
+                    "subMenuUrl": "ledger",
+                    "subMenuName": "Ledger",
+                    "displayOrder": 9,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View,List,Add New Entry",
+                    "subMenuType": "1",
+                    "info": "Ledger",
+                    "hideMenu": 1,
+                    "sidebarUrl": "ledger,submit-student-fee,submit-student-fee,submit-student-fee,submit-student-fee,submit-student-fee,submit-student-fee,view-students,view-students,view-students,view-students,view-students,view-students,view-students,view-student,submit-student-fee,submit-student-fee",
+                    "parentRoute": ""
+                }
+            },
+            {
+                "id": "f4a59214-0468-4e36-9ee4-be999d7fdafb",
+                "menuId": "8a645551-bf18-4f35-805a-65950679b4f8",
+                "subMenuId": "36d87924-5b94-4805-ae92-21a8bf8d3749",
+                "subActionType": "View,List,Add,Pending",
+                "userRightsSubMenuData": {
+                    "id": "36d87924-5b94-4805-ae92-21a8bf8d3749",
+                    "subMenuUrl": "cheque-status",
+                    "subMenuName": "Cheque Status",
+                    "displayOrder": 10,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View,List,Add,Pending",
+                    "subMenuType": "1",
+                    "info": "Cheque Status",
+                    "hideMenu": 1,
+                    "sidebarUrl": "cheque-status",
+                    "parentRoute": ""
+                }
+            },
+            {
+                "id": "32121366-e960-4d67-8632-f460b94f407a",
+                "menuId": "8a645551-bf18-4f35-805a-65950679b4f8",
+                "subMenuId": "8d1b4801-44a3-41af-bd96-007bc9e37ab6",
+                "subActionType": "View,List,Pending",
+                "userRightsSubMenuData": {
+                    "id": "8d1b4801-44a3-41af-bd96-007bc9e37ab6",
+                    "subMenuUrl": "adjustment-fee",
+                    "subMenuName": "Adjustment Fee",
+                    "displayOrder": 11,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View,List,Pending",
+                    "subMenuType": "1",
+                    "info": "Adjustment Fee",
+                    "hideMenu": 1,
+                    "sidebarUrl": "adjustment-fee",
+                    "parentRoute": ""
+                }
+            },
+            {
+                "id": "0604be0d-dee9-4184-851d-d574c77ff7d0",
+                "menuId": "8a645551-bf18-4f35-805a-65950679b4f8",
+                "subMenuId": "6e4fceb6-1fd9-4414-acd7-418e6dc7431b",
+                "subActionType": "Add",
+                "userRightsSubMenuData": {
+                    "id": "6e4fceb6-1fd9-4414-acd7-418e6dc7431b",
+                    "subMenuUrl": "submit-student-fee",
+                    "subMenuName": "Submit Student Fee",
+                    "displayOrder": 12,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "Add",
+                    "subMenuType": "1",
+                    "info": "This is required if you are giving access of new entry to accountant",
+                    "hideMenu": 0,
+                    "sidebarUrl": "ledger,submit-student-fee,submit-student-fee,submit-student-fee,submit-student-fee,submit-student-fee,submit-student-fee,view-students,view-students,view-students,view-students,view-students,view-students,view-students,view-student,submit-student-fee,submit-student-fee",
+                    "parentRoute": "264141e5-4002-4af8-a013-8f33b3d9291e"
+                }
+            },
+            {
+                "id": "111486f5-d09f-4959-8faa-3474b8d509ef",
+                "menuId": "8a645551-bf18-4f35-805a-65950679b4f8",
+                "subMenuId": "e79e9a29-d558-479e-99fd-b28abd273a54",
+                "subActionType": "View",
+                "userRightsSubMenuData": {
+                    "id": "e79e9a29-d558-479e-99fd-b28abd273a54",
+                    "subMenuUrl": "view-student",
+                    "subMenuName": "View Students",
+                    "displayOrder": 13,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View",
+                    "subMenuType": "1",
+                    "info": "View Students",
+                    "hideMenu": 0,
+                    "sidebarUrl": "ledger,submit-student-fee,submit-student-fee,submit-student-fee,submit-student-fee,submit-student-fee,submit-student-fee,view-students,view-students,view-students,view-students,view-students,view-students,view-students,view-student",
+                    "parentRoute": "264141e5-4002-4af8-a013-8f33b3d9291e"
+                }
+            },
+            {
+                "id": "4603c7de-61ac-4b19-af38-71e7b4084872",
+                "menuId": "8a645551-bf18-4f35-805a-65950679b4f8",
+                "subMenuId": "f854cb15-a08e-4430-889a-22da28baf4d0",
+                "subActionType": "Edit",
+                "userRightsSubMenuData": {
+                    "id": "f854cb15-a08e-4430-889a-22da28baf4d0",
+                    "subMenuUrl": "edit-club-student",
+                    "subMenuName": "edit-club-student",
+                    "displayOrder": 14,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "Edit",
+                    "subMenuType": "1",
+                    "info": "edit-club-student",
+                    "hideMenu": 0,
+                    "sidebarUrl": "club-student-list,view-club-student,view-club-student,view-club-student,edit-club-student,edit-club-student,edit-club-student,edit-club-student,edit-club-student,edit-club-student,edit-club-student,edit-club-student",
+                    "parentRoute": "7b28b68c-8bb0-4fb9-88fa-a721dce4abd3"
+                }
+            }
+        ]
+    },
+    {
+        "id": "20e49c2b-5808-4443-be3b-5353565b93da",
+        "menuId": "bba26bc3-f36d-4d02-8e0c-02e9cc0bfb54",
+        "actionType": "",
+        "userRightsMenuData": {
+            "id": "bba26bc3-f36d-4d02-8e0c-02e9cc0bfb54",
+            "menuName": "Reports",
+            "menuUrl": "reports",
+            "displayOrder": 5,
+            "menuIcon": "las la-file-alt",
+            "actionType": "",
+            "menuType": "2",
+            "info": "Reports",
+            "hideMenu": 1,
+            "sidebarUrl": "reports",
+            "parentRoute": ""
+        },
+        "subMenuData": [
+            {
+                "id": "fd5dc372-3167-4d8c-b635-f75e78a19d2d",
+                "menuId": "bba26bc3-f36d-4d02-8e0c-02e9cc0bfb54",
+                "subMenuId": "fe9c9fa6-34a1-4dd4-97e7-0833aedb4f64",
+                "subActionType": "View,List",
+                "userRightsSubMenuData": {
+                    "id": "fe9c9fa6-34a1-4dd4-97e7-0833aedb4f64",
+                    "subMenuUrl": "daily-collections",
+                    "subMenuName": "Daily Collections",
+                    "displayOrder": 1,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View,List",
+                    "subMenuType": "1",
+                    "info": "Daily Collections",
+                    "hideMenu": 1,
+                    "sidebarUrl": "daily-collections",
+                    "parentRoute": ""
+                }
+            },
+            {
+                "id": "ff7d9a9a-5d4e-4f75-b819-258792af30fd",
+                "menuId": "bba26bc3-f36d-4d02-8e0c-02e9cc0bfb54",
+                "subMenuId": "4040e0c2-3558-4156-81d7-3286811c91c8",
+                "subActionType": "View,List",
+                "userRightsSubMenuData": {
+                    "id": "4040e0c2-3558-4156-81d7-3286811c91c8",
+                    "subMenuUrl": "monthly-collections",
+                    "subMenuName": "Monthly Collections",
+                    "displayOrder": 2,
+                    "subMenuIcon": "las la-arrow-alt-circle-down",
+                    "actionType": "View,List",
+                    "subMenuType": "1",
+                    "info": "Monthly Collections",
+                    "hideMenu": 1,
+                    "sidebarUrl": "monthly-collections",
+                    "parentRoute": ""
+                }
+            },
+            {
+                "id": "fe8b291a-cceb-4f38-8ef5-d40bd6fe8853",
+                "menuId": "bba26bc3-f36d-4d02-8e0c-02e9cc0bfb54",
+                "subMenuId": "71b098a8-c200-41b0-ac95-459a2236cadc",
+                "subActionType": "View,List",
+                "userRightsSubMenuData": {
+                    "id": "71b098a8-c200-41b0-ac95-459a2236cadc",
+                    "subMenuUrl": "paid-fees",
+                    "subMenuName": "Paid Fees",
+                    "displayOrder": 3,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View,List",
+                    "subMenuType": "1",
+                    "info": "Paid Fees",
+                    "hideMenu": 1,
+                    "sidebarUrl": "paid-fees,view-student-ledger,view-student-ledger",
+                    "parentRoute": ""
+                }
+            },
+            {
+                "id": "c4799d3b-54f9-4c77-ad81-99d17eb5ce51",
+                "menuId": "bba26bc3-f36d-4d02-8e0c-02e9cc0bfb54",
+                "subMenuId": "2ecf2e06-ebdc-4bed-bb7e-d9fc411f8982",
+                "subActionType": "View,List",
+                "userRightsSubMenuData": {
+                    "id": "2ecf2e06-ebdc-4bed-bb7e-d9fc411f8982",
+                    "subMenuUrl": "student-payment-ledger",
+                    "subMenuName": "Student Payment Ledger",
+                    "displayOrder": 4,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View,List",
+                    "subMenuType": "1",
+                    "info": "Student Payment Ledger",
+                    "hideMenu": 1,
+                    "sidebarUrl": "student-payment-ledger",
+                    "parentRoute": ""
+                }
+            },
+            {
+                "id": "fcfab53c-ce22-49d5-9920-3c62137c162e",
+                "menuId": "bba26bc3-f36d-4d02-8e0c-02e9cc0bfb54",
+                "subMenuId": "8189fa3e-8988-4c83-9797-85ec2dd9f3de",
+                "subActionType": "View,List",
+                "userRightsSubMenuData": {
+                    "id": "8189fa3e-8988-4c83-9797-85ec2dd9f3de",
+                    "subMenuUrl": "class-fee",
+                    "subMenuName": "Class Fee",
+                    "displayOrder": 5,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View,List",
+                    "subMenuType": "1",
+                    "info": "Class Fee Report",
+                    "hideMenu": 1,
+                    "sidebarUrl": "class-fee",
+                    "parentRoute": ""
+                }
+            },
+            {
+                "id": "f2b6e18a-bde6-4be6-82af-4f641de5a180",
+                "menuId": "bba26bc3-f36d-4d02-8e0c-02e9cc0bfb54",
+                "subMenuId": "08d61fe2-b6f7-4a52-9e69-ed3ae327c258",
+                "subActionType": "View,List",
+                "userRightsSubMenuData": {
+                    "id": "08d61fe2-b6f7-4a52-9e69-ed3ae327c258",
+                    "subMenuUrl": "father-payment",
+                    "subMenuName": "Father Payment Ledger",
+                    "displayOrder": 6,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View,List",
+                    "subMenuType": "1",
+                    "info": "Father Payment Ledger",
+                    "hideMenu": 1,
+                    "sidebarUrl": "father-payment",
+                    "parentRoute": ""
+                }
+            },
+            {
+                "id": "56c266ef-b0d0-4764-bddc-75ee4f85f109",
+                "menuId": "bba26bc3-f36d-4d02-8e0c-02e9cc0bfb54",
+                "subMenuId": "60e9bc4d-260a-46af-9b60-37d112453e65",
+                "subActionType": "View,List",
+                "userRightsSubMenuData": {
+                    "id": "60e9bc4d-260a-46af-9b60-37d112453e65",
+                    "subMenuUrl": "add-on-report",
+                    "subMenuName": "Add On Report",
+                    "displayOrder": 7,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View,List",
+                    "subMenuType": "1",
+                    "info": "Add On Report",
+                    "hideMenu": 1,
+                    "sidebarUrl": "add-on-report",
+                    "parentRoute": ""
+                }
+            },
+            {
+                "id": "3f2dfcaf-070d-48e8-9de6-454b9873d7ac",
+                "menuId": "bba26bc3-f36d-4d02-8e0c-02e9cc0bfb54",
+                "subMenuId": "ea7beb6c-f0a4-4098-b0bb-2e00c002bcdf",
+                "subActionType": "View,List",
+                "userRightsSubMenuData": {
+                    "id": "ea7beb6c-f0a4-4098-b0bb-2e00c002bcdf",
+                    "subMenuUrl": "fee-report",
+                    "subMenuName": "Fee Report",
+                    "displayOrder": 8,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View,List",
+                    "subMenuType": "1",
+                    "info": "Fee Report",
+                    "hideMenu": 1,
+                    "sidebarUrl": "fee-report",
+                    "parentRoute": ""
+                }
+            },
+            {
+                "id": "fccea21d-fa1b-440d-9f29-f598681b1e35",
+                "menuId": "bba26bc3-f36d-4d02-8e0c-02e9cc0bfb54",
+                "subMenuId": "e090d9df-e5b1-4384-964a-e987bf0ef2ec",
+                "subActionType": "View",
+                "userRightsSubMenuData": {
+                    "id": "e090d9df-e5b1-4384-964a-e987bf0ef2ec",
+                    "subMenuUrl": "view-student-ledger",
+                    "subMenuName": "view-student-ledger",
+                    "displayOrder": 10,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View",
+                    "subMenuType": "1",
+                    "info": "view-student-ledger",
+                    "hideMenu": 0,
+                    "sidebarUrl": "paid-fees,view-student-ledger,view-student-ledger",
+                    "parentRoute": "71b098a8-c200-41b0-ac95-459a2236cadc"
+                }
+            }
+        ]
+    },
+    {
+        "id": "f1f9bcac-1c2c-4734-8499-956f7f52614e",
+        "menuId": "2a8868bb-1886-46f0-99b8-24410e4c83ed",
+        "actionType": "",
+        "userRightsMenuData": {
+            "id": "2a8868bb-1886-46f0-99b8-24410e4c83ed",
+            "menuName": "Expense Management",
+            "menuUrl": "expense-management",
+            "displayOrder": 6,
+            "menuIcon": "las la-money-check-alt",
+            "actionType": "",
+            "menuType": "2",
+            "info": "Expense Management",
+            "hideMenu": 1,
+            "sidebarUrl": "expense-management",
+            "parentRoute": ""
+        },
+        "subMenuData": [
+            {
+                "id": "64ee72b0-fe86-4648-85b6-7835277215f6",
+                "menuId": "2a8868bb-1886-46f0-99b8-24410e4c83ed",
+                "subMenuId": "a2fd2b8d-9f8a-4100-b507-30c6273e2a19",
+                "subActionType": "View,List,Edit,Add",
+                "userRightsSubMenuData": {
+                    "id": "a2fd2b8d-9f8a-4100-b507-30c6273e2a19",
+                    "subMenuUrl": "expense-category",
+                    "subMenuName": "Expense Category",
+                    "displayOrder": 1,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View,List,Edit,Add",
+                    "subMenuType": "1",
+                    "info": "Expense Category",
+                    "hideMenu": 1,
+                    "sidebarUrl": "expense-category",
+                    "parentRoute": ""
+                }
+            },
+            {
+                "id": "3d743da1-9d1a-4f3e-b5ca-a059656dd2a7",
+                "menuId": "2a8868bb-1886-46f0-99b8-24410e4c83ed",
+                "subMenuId": "8b452c0a-0998-4e28-85f1-c436a7e79e22",
+                "subActionType": "Inward,Outward",
+                "userRightsSubMenuData": {
+                    "id": "8b452c0a-0998-4e28-85f1-c436a7e79e22",
+                    "subMenuUrl": "direct-inward-outward",
+                    "subMenuName": "Direct Inward & Outward",
+                    "displayOrder": 2,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "Inward,Outward",
+                    "subMenuType": "1",
+                    "info": "Direct Inward & Outward",
+                    "hideMenu": 1,
+                    "sidebarUrl": "direct-inward-outward",
+                    "parentRoute": ""
+                }
+            },
+            {
+                "id": "a92d7677-af7a-495f-b55a-9e7d867a4b1a",
+                "menuId": "2a8868bb-1886-46f0-99b8-24410e4c83ed",
+                "subMenuId": "e3523055-d0fc-48ec-acae-cf2ea0dacb3d",
+                "subActionType": "View,List",
+                "userRightsSubMenuData": {
+                    "id": "e3523055-d0fc-48ec-acae-cf2ea0dacb3d",
+                    "subMenuUrl": "inward-outward-report",
+                    "subMenuName": "Inward & Outward Report",
+                    "displayOrder": 3,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View,List",
+                    "subMenuType": "1",
+                    "info": "Inward & Outward Report",
+                    "hideMenu": 1,
+                    "sidebarUrl": "inward-outward-report",
+                    "parentRoute": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "2debed9e-fed5-4c93-861b-c17dd61ec138",
+        "menuId": "3a7818be-1284-4605-b2b9-040a390f1983",
+        "actionType": "",
+        "userRightsMenuData": {
+            "id": "3a7818be-1284-4605-b2b9-040a390f1983",
+            "menuName": "Event Management",
+            "menuUrl": "event-management",
+            "displayOrder": 7,
+            "menuIcon": "las la-calendar",
+            "actionType": "",
+            "menuType": "2",
+            "info": "Event Management",
+            "hideMenu": 1,
+            "sidebarUrl": "event-management",
+            "parentRoute": ""
+        },
+        "subMenuData": [
+            {
+                "id": "60fa956e-f7c8-45ea-8863-d833326da336",
+                "menuId": "3a7818be-1284-4605-b2b9-040a390f1983",
+                "subMenuId": "9ca910a6-cdfe-4870-b345-e351048d3412",
+                "subActionType": "View,List",
+                "userRightsSubMenuData": {
+                    "id": "9ca910a6-cdfe-4870-b345-e351048d3412",
+                    "subMenuUrl": "view-events",
+                    "subMenuName": "View Event",
+                    "displayOrder": 1,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View,List",
+                    "subMenuType": "1",
+                    "info": "View Event",
+                    "hideMenu": 1,
+                    "sidebarUrl": "view-events",
+                    "parentRoute": ""
+                }
+            },
+            {
+                "id": "11b2fc22-754f-4c3e-b47c-446747b27ab4",
+                "menuId": "3a7818be-1284-4605-b2b9-040a390f1983",
+                "subMenuId": "8f18727d-6ab6-4e7b-bbcd-3a9abd95ed38",
+                "subActionType": "View,List",
+                "userRightsSubMenuData": {
+                    "id": "8f18727d-6ab6-4e7b-bbcd-3a9abd95ed38",
+                    "subMenuUrl": "view-holiday",
+                    "subMenuName": "View Holiday",
+                    "displayOrder": 2,
+                    "subMenuIcon": "las la-angle-up",
+                    "actionType": "View,List",
+                    "subMenuType": "1",
+                    "info": "View Holiday",
+                    "hideMenu": 1,
+                    "sidebarUrl": "view-holiday",
+                    "parentRoute": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "db16bcf6-2daf-4828-803f-0edef81654f3",
+        "menuId": "38f92aab-346a-4902-987e-9efb35f4d253",
+        "actionType": "View,List",
+        "userRightsMenuData": {
+            "id": "38f92aab-346a-4902-987e-9efb35f4d253",
+            "menuName": "Notice Management",
+            "menuUrl": "notice-management",
+            "displayOrder": 8,
+            "menuIcon": "las la-flag",
+            "actionType": "View,List",
+            "menuType": "1",
+            "info": "Notice Management",
+            "hideMenu": 1,
+            "sidebarUrl": "notice-management",
+            "parentRoute": ""
+        },
+        "subMenuData": []
+    },
+    {
+        "id": "d21f8cd8-48fa-4662-8f01-26d00f86215d",
+        "menuId": "63dc133e-210d-4d83-9f0b-64f18237f75c",
+        "actionType": "View,Add,List",
+        "userRightsMenuData": {
+            "id": "63dc133e-210d-4d83-9f0b-64f18237f75c",
+            "menuName": "Leave Management",
+            "menuUrl": "leave-management",
+            "displayOrder": 9,
+            "menuIcon": "las la-file-contract",
+            "actionType": "View,Add,List",
+            "menuType": "1",
+            "info": "Leave Management",
+            "hideMenu": 1,
+            "sidebarUrl": "leave-management",
+            "parentRoute": ""
+        },
+        "subMenuData": []
+    },
+    {
+        "id": "7344e6b8-caf6-43f9-a351-e6fa2d2e3910",
+        "menuId": "dbef9130-e9c4-4576-9b06-b4203c38eb5c",
+        "actionType": "View,List,Pending",
+        "userRightsMenuData": {
+            "id": "dbef9130-e9c4-4576-9b06-b4203c38eb5c",
+            "menuName": "Concession Request",
+            "menuUrl": "concession-request",
+            "displayOrder": 10,
+            "menuIcon": "las la-rupee-sign",
+            "actionType": "View,List,Pending",
+            "menuType": "1",
+            "info": "Concession Request",
+            "hideMenu": 1,
+            "sidebarUrl": "concession-request",
+            "parentRoute": ""
+        },
+        "subMenuData": []
+    }
+]
